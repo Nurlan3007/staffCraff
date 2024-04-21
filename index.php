@@ -93,7 +93,7 @@ $router -> run();
 ?>
 <body>
 	<? require_once "pages/public/who_we_are.php" ?>
-    <h2>GIT AAA</h2>
+    <h2>GIT yyy</h2>
 </body>
 </html>
 
