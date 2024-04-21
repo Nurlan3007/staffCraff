@@ -1,3 +1,3 @@
 <?php
 
-echo "for a while here notng";
+echo "for a while here nothing";
