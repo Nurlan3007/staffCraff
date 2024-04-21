@@ -1,0 +1,70 @@
+
+
+.create_resume{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px #ccc;
+    padding: 30px 10px 30px 10px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.form__group{
+    margin-bottom: 20px;
+}
+
+.create_resume input[type="text"],.create_resume textarea,select{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    background: #f1eeee;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+    transition: outline 0.5s;
+    font-size: 18px;
+}
+
+.create_resume textarea{
+    height: 320px;
+    resize: none;
+}
+
+body .create_resume input[type="text"]:focus,body .create_resume textarea:focus{
+    border: 2px solid #627fb1;
+    background: #fff;
+}
+
+.create_resume input[type="submit"]{
+    outline: none;
+    border:0;
+    padding:8px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    background: #627fb1;
+    color: #ffffff;
+    transition: background 0.5s;
+    font-weight: 500;
+}
+
+.create_resume input[type="submit"]:hover{
+    background: #4c71ad;
+}
+
+
+.errors{
+    margin: 10px 10px   ;
+    color:red;
+    text-align: center;
+}
+
+

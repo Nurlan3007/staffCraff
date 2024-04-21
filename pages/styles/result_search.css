@@ -1,0 +1,35 @@
+.result_search__value{
+    width: 900px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result_search__value:first-child{
+    margin-top: 20px;
+}
+
+
+.more_inf{
+    color: #548eaa;
+    border: 1px solid #548eaa;
+    padding: 2px 13px;
+    border-radius:4px ;
+    font-size: 14px;
+    transition: all 0.8s;
+}
+
+.more_inf:hover{
+    color: #fff;
+    background: #548eaa;
+}
+
+body h3{
+    text-align: center;
+}
+

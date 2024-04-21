@@ -1,0 +1,202 @@
+a{
+    text-decoration: none;
+}
+
+body{background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+    z-index: 1;
+    position: relative;
+}
+
+
+/*.content{*/
+/*    background: #ccc;*/
+/*}*/
+
+.content img{
+    width: 100%;
+    /*height: 500px;*/
+    object-fit: cover;
+}
+
+ .content_text{
+     text-align: center;
+     color:#fff;
+     font-size: 25px;
+     line-height: 1.5;
+     margin: 0;
+     position: absolute;
+     top: 15%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+ }
+
+.content_text p{
+    line-height: 2;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content_text .first{
+    font-size: 60px;
+    text-align: center;
+}
+
+.job_offers {
+    margin-top: 50px;
+}
+
+.job_offers a{
+    color:#fff;
+    background: #3182c1;
+    border-radius: 20px;
+    padding: 16px 48px;
+}
+
+.job_offers a:hover{
+    background: #1c68a2;
+}
+
+.page_poster{
+    /*background: #fff;*/
+}
+
+.who_we_are, .what_we_do{
+    line-height: 2;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.who_we_are h3,.what_we_do h3{
+    text-align: center;
+    font-size: 40px;
+    color:#2b3d4f;
+}
+
+.who_we_are p,.what_we_do p,.what_we_do li{
+    color: #2b465a;
+}
+
+.our_service{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 450px;
+    height: 350px;
+}
+
+
+.our_service img{
+    object-fit: cover;
+    height: 100%;
+    align-self: center;
+    width: 450px;
+}
+
+.what_we_do ul{
+    list-style: square;
+    /*list-style-image: url(../imgs/icons8-заполненный-круг-24.png);*/
+}
+
+.advantages{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages h3{
+    font-size: 30px;
+}
+
+.first_advantage,.second_advantage,.third_advantage{
+    width: 33%;
+}
+
+.advantages p{
+    text-align: center;
+}
+
+.contact_us{
+    margin-bottom: 50px;
+}
+
+.contact_us h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact_us__values{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us__values img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form{
+    width: 50%;
+}
+
+.form__group{
+    width: 100%;
+}
+
+.contact_us input,.contact_us textarea{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    background: #f1eeee;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+    transition: outline 0.5s;
+    resize: none;
+}
+
+.contact_us textarea{
+    width: 100%;
+    height: 200px;
+}
+
+.contact_us .first_form_group{
+    display: flex;
+    width: 100%;
+}
+
+.contact_us .first_form_group input{
+    width: 50%;
+}
+
+
+.contact_us input:focus,.contact_us textarea:focus{
+    border: 2px solid #8282f6;
+    background: #fff;
+}
+
+.contact_us input[type="submit"]{
+    cursor: pointer;
+    font-size: 15px;
+    background: #627fb1;
+    color: #ffffff;
+    transition: background 0.5s;
+    font-weight: 500;
+}
+
+

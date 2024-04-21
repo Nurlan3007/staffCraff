@@ -1,0 +1,142 @@
+.errors{
+	color: red;
+	text-align: center;
+}
+
+.singIn{
+	font-family: URW Chancery L, cursive;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 90px;
+}
+
+.form__singIn{
+	width: 100%;
+	max-width: 330px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 10px 10px 10px 10px #ccc;
+	padding: 70px 30px 100px 30px;
+}
+
+h2{
+	text-align: center;
+	color: #000	;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.form__singIn input::placeholder{
+	font-family: URW Chancery L, cursive;
+	font-size: 12px;
+	transition: font-size 0.5s;
+}
+
+.form__singIn input:focus::placeholder{
+	font-family: URW Chancery L, cursive;
+	font-weight: 500;
+	color: #fff;
+}
+
+.form__group{
+	margin-top: 10px;
+}
+
+.forgot__pass{
+	display: flex;
+	justify-content: right;
+}
+
+.forgot__pass a{
+	font-size: 12px;
+	color: #8282f6;
+	transition: color 0.5s;
+}
+
+.forgot__pass a:hover{
+	color: #afaff4;
+}
+
+.form__singIn input{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	width: 100%;
+	background: #f1eeee;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	padding: 10px;
+	transition: outline 0.5s;
+}
+
+.form__singIn input:focus{
+	border: 2px solid #8282f6;
+	background: #fff;
+}
+
+/* BUTTON SUBMIT  */
+
+.form__singIn input[type="submit"]{
+	cursor: pointer;
+	font-size: 15px;
+	background: #627fb1;
+	color: #ffffff;
+	transition: background 0.5s;
+	font-weight: 500;
+}
+
+.form__singIn input[type="submit"]:hover{
+	background: #7777f1;
+}
+
+.forgot__pass {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* ERRORS  */
+.error{
+	font-weight: 300;
+	font-size: 12px;
+	color: red;
+	text-align: center;
+}
+
+input.haveError{
+	border: 1px solid red ;
+}
+
+
+@media (max-width: 434px){
+	.singIn{
+		display: flex;
+		/*flex-direction: column;*/
+		
+		margin: 10px 20px;
+	}
+
+	body .form__singIn{
+		width: 100%;
+		box-shadow: 0 0 0 #fff;
+		background: #f2f2f2;
+		border-radius: 5px;
+		padding: 70px 10px 100px 10px;
+	}
+
+	.form__singIn input{
+		font-size: 12px;
+		width: 100%;
+		background: #fff;
+	}
+}
+
+
+
+
+.create_resume{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,104 @@
+
+.content__value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vacancie,.vacancie_info,.comments{
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #ccc;
+    padding: 30px 30px 70px 30px;
+    background: #fff;
+}
+
+.vacancie_info{
+    width: 40%;
+    line-height: 3;
+}
+
+.vacancie{
+    line-height: 3;
+}
+
+.vacancie p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+.vacancie h3,.vacancie_info h3{
+    font-size: 35px;
+}
+
+.vacancie__img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vacancie__img img{
+    border:1px solid #393f4b;
+    width: 100%;
+    box-shadow: 10px 10px 10px #cccccc;
+}
+
+.vacancie__author span{
+    color: #627fb1;
+}
+
+.comments h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.comments form{
+    display: flex;
+}
+
+.comments input[type="text"]{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    background: #f1eeee;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+    transition: outline 0.5s;
+}
+
+input[type="text"]:focus{
+    border: 2px solid #8282f6;
+    background: #fff;
+}
+
+input[type="submit"]{
+    width: 20%;
+    border:0;
+    cursor: pointer;
+    font-size: 15px;
+    background: #627fb1;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background 0.5s;
+    font-weight: 500;
+}
+
+.form__singIn input[type="submit"]:hover{
+    background: #7777f1;
+}
+
+
+.comment_values{
+    line-height: 2;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment_values h4{
+    color: #6f7577;
+    font-size: 14px;
+}
+
+.comment_values p{
+    margin-left: 20px;
+}
