@@ -1,6 +1,5 @@
 <?php
 
-echo "I am lox";
 session_start();
 require_once "db/connect_db.php";
 
